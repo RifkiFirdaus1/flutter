@@ -28,7 +28,7 @@ class ExplorePage extends StatelessWidget {
         borderRadius: BorderRadius.circular(10),
       ),
       child: ListTile(
-        leading: Image.asset(imagePath, width: 50, height: 50),
+        leading: Image.asset(imagePath, width: 100, height: 100),
         title: Text(title),
         subtitle: Text('$subtitle\nCarbohydrate: $carbs\nProtein: $protein'),
       ),
